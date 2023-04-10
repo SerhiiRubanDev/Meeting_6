@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        *,
+        *::after,
+        *::before{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            width: 100%;
+
+        }
+
+        ul li {
+            padding: 10px 40px;
+        }
+
+        ul a {
+            display: block;
+            width: 100%;
+            background-color: rgb(20, 135, 20);
+            color: white;
+            text-decoration: none;
+        }
+
+        .wrapper {
+            width: 90%;
+            min-width: 700px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .clearfix::before,
+        .clearfix::after {
+            display: table;
+            content: "";
+        }
+
+        .clearfix::after {
+            clear: both;
+        }
+        /* .goods{
+            height: 1px;
+        } */
+        .card {
+            float: left;
+            width: 22%;
+            margin: 1%;
+            padding: 0.5%;
+            box-shadow: 4px 4px 10px 12px #777;
+            min-height: 400px;
+            overflow: auto;
+        }
+        .box{
+            display: inline-block;
+            width: 30.3%;
+            background-color: darkgreen;
+            margin: 1%;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Our team</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div class="wrapper">
+        <div class="goods clearfix">
+            <div class="card">
+                <h3>Card 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti dolores eius deserunt odio
+                    temporibus, voluptatum voluptatibus sunt iure, quae accusantium recusandae doloribus dolorum harum
+                    vel ab doloremque sint consequatur repudiandae ex optio eum modi. Ratione libero, iure sequi omnis
+                    laudantium aspernatur molestias dolorum qui labore numquam dicta totam quaerat magnam et rerum
+                    cumque minima impedit id commodi molestiae blanditiis possimus!</p>
+                <a href="#">Add to cart</a>
+            </div>
+            <div class="card">
+                <h3>Card 2</h3>
+                <p>In at odit reprehenderit delectus architecto molestias praesentium similique vel, magni repudiandae
+                    cumque, explicabo sint ipsa error voluptate veniam quo ea, quae iste eveniet ullam sequi minima.
+                    Libero numquam, vel, ratione, dolore deserunt tenetur aliquam corrupti laborum modi vero minus animi
+                    recusandae eaque temporibus quaerat quae fugit dicta velit. Fuga at quaerat saepe iure! Ipsum et
+                    quisquam dolore laboriosam praesentium.</p>
+                <a href="#">Add to cart</a>
+            </div>
+            <div class="card">
+                <h3>Card 3</h3>
+                <p>Doloremque accusamus assumenda eum accusantium esse quia vitae asperiores, pariatur fugiat minima
+                    repudiandae architecto voluptate. Animi natus tempore maxime ab vel, accusantium commodi est
+                    eligendi voluptatum architecto quas consectetur quibusdam modi dolore quis nam maiores dolorum
+                    assumenda corporis harum, quae officia sapiente iusto. Suscipit rem amet incidunt, possimus rerum
+                    deleniti asperiores, voluptatum quam vitae velit exercitationem dicta voluptas officiis nobis.</p>
+                <a href="#">Add to cart</a>
+            </div>
+            <div class="card">
+                <h3>Card 4</h3>
+                <p>Quos iste ad quam incidunt, asperiores in delectus veniam eligendi reprehenderit porro error eveniet
+                    eius officia esse rerum, debitis, vel molestiae aliquid. Vero consequuntur ducimus ipsa ab impedit
+                    veniam eaque! Placeat commodi quos repellendus dicta illo laudantium odio natus, saepe aut veritatis
+                    explicabo sapiente, nesciunt, beatae quas alias mollitia nam nulla ullam reiciendis eligendi ut
+                    facere impedit aliquid iste! Temporibus?</p>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <footer>
+            <div class="box">
+
+            </div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </footer>
+    </div>
+</body>
+
+</html>
